@@ -1,1 +1,22 @@
+import sys
+  """initilizes the current time"""
+for line in sys.stdin:
+data = line.strip().split("\t")
+if len(data) == 6:
+    date, time, store, item, cost, payment = data
+print( "{0}\t{1}".format(item, cost)
 
+from datetime import datetime
+from datetime import timedelta
+print(datetime.now() + timedelta(days=1)
+"""displays current time with the timedelta section deteriming the conditions"""
+
+from datetime import timedelta
+d = timedelta(microseconds=-1)
+(d.days, d.seconds, d.microseconds)
+"""creates a timedelta object which represents 100 days, 10 hours, and 13 minutes with the output"""
+
+datetime_object = datetime.now()
+print(datetime_object)
+  print ('Type :- ',type(datetime_object))
+"""function that takes two arguments for time object"""
